@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from skimage.feature import hessian_matrix, hessian_matrix_eigvals
+plt.rcParams["font.size"] = 16
 
 def hessian_2d(input_img):
 
