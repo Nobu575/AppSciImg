@@ -8,6 +8,9 @@ Language: Python
 ### Histogram 2D
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/sagittal_histogram2d.png">
 
+### Hessian 2D
+<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d.png">
+
 # Author
 Hidenobu SUZUKI
 
