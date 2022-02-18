@@ -5,7 +5,7 @@ Application of Image processing using Scikit-image.
 Language: Python
 
 # Demo
-### Histogram 2D
+### CT value histogram of non-contrast CT image
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/sagittal_histogram2d.png">
 
 ### Eigen values of Hessian matrix for non-contrast CT images (sigma=1.0)
