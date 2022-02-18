@@ -10,6 +10,8 @@ Language: Python
 
 ### Hessian 2D
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d.png">
+<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_axial.png">
+<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_coronal.png">
 
 # Author
 Hidenobu SUZUKI
