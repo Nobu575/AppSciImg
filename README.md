@@ -8,9 +8,9 @@ Language: Python
 ### Histogram 2D
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/sagittal_histogram2d.png">
 
-### Hessian 2D
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d.png">
+### Eigen values of Hessian matrix for non-contrast CT images (sigma=1.0)
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_axial.png">
+<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d.png">
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_coronal.png">
 
 # Author
