@@ -13,13 +13,7 @@ Language: Python
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d.png">
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_coronal.png">
 
-### Labeling ribs and spine of CT image
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/labeling2d.png">
-
-### Convex Hull of ribs and spine of CT image
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/convexhull2d.png">
-
-### Skeleton of ribs and spine of CT image
+### Labeling, convex hull, and skeleton of ribs and spine of CT image
 <img src="https://github.com/Nobu575/AppSciImg/blob/main/img/skeleton2d.png">
 
 # Author
