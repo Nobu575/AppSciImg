@@ -16,7 +16,7 @@ Language: Python
 ### Labeling, convex hull, and skeleton of ribs and spine of CT image
 <img src="img/skeleton2d.png">
 
-### Ridge operations for pulmonary blood vessels of a MIP CT image
+### Detection of ridge-like structures in a MIP CT image.
 <img src="img/ridge2d.png" width="600">
 
 # Author
