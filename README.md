@@ -6,15 +6,18 @@ Language: Python
 
 # Demo
 ### CT value histogram of non-contrast CT image
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/sagittal_histogram2d.png">
+<img src="img/sagittal_histogram2d.png">
 
 ### Eigen values of Hessian matrix for CT images (sigma=1.0)
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_axial.png">
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d.png">
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/hessian2d_coronal.png">
+<img src="img/hessian2d_axial.png">
+<img src="img/hessian2d.png">
+<img src="img/hessian2d_coronal.png">
 
 ### Labeling, convex hull, and skeleton of ribs and spine of CT image
-<img src="https://github.com/Nobu575/AppSciImg/blob/main/img/skeleton2d.png">
+<img src="img/skeleton2d.png">
+
+### Ridge operations for pulmonary blood vessels of a MIP CT image
+<img src="img/ridge_operations2d.png" width="600">
 
 # Author
 Hidenobu SUZUKI
