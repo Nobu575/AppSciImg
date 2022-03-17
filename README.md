@@ -17,7 +17,7 @@ Language: Python
 <img src="img/skeleton2d.png">
 
 ### Ridge operations for pulmonary blood vessels of a MIP CT image
-<img src="img/ridge_operations2d.png" width="600">
+<img src="img/ridge2d.png" width="600">
 
 # Author
 Hidenobu SUZUKI
