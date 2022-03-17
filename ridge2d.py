@@ -16,7 +16,10 @@ def ridge_2d(input_img):
         for j, func in enumerate([identity, meijering, sato, frangi, hessian]):
             kwargs['black_ridges'] = black_ridges
             result = func(input_img, **kwargs)
-            axes[i, j].imshow(result, cmap=cmap, aspect='auto')
+            if j==0 or j==4:
+                axes[i, j].imshow(result, cmap=cmap, aspect='auto')
+            else:
+                axes[i, j].imshow(result, cmap="gnuplot", aspect='auto')
             if i == 0:
                 axes[i, j].set_title(['Original\nMIP image', 'Meijering\nneuriteness',
                                     'Sato\ntubeness', 'Frangi\nvesselness',
