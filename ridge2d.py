@@ -18,7 +18,7 @@ def ridge_2d(input_img):
             result = func(input_img, **kwargs)
             axes[i, j].imshow(result, cmap=cmap, aspect='auto')
             if i == 0:
-                axes[i, j].set_title(['Original\nimage', 'Meijering\nneuriteness',
+                axes[i, j].set_title(['Original\nMIP image', 'Meijering\nneuriteness',
                                     'Sato\ntubeness', 'Frangi\nvesselness',
                                     'Hessian\nvesselness'][j])
             if j == 0:
