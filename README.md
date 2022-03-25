@@ -6,11 +6,13 @@ Language: Python
 
 # Demo
 ## CT value histogram
-File name is [histogram2d.py](histogram2d.py). Original scikit-image example is [here](https://scikit-image.org/docs/stable/auto_examples/color_exposure/plot_equalize.html#sphx-glr-auto-examples-color-exposure-plot-equalize-py). The figure on the left is CT value histogram of a sagittal CT image. The lower and upper limits are set to -100 and 200. The figure on the right is a histogram of the rescaled intensity. 
+File name is [histogram2d.py](histogram2d.py). Original scikit-image example is [here](https://scikit-image.org/docs/stable/auto_examples/color_exposure/plot_equalize.html#sphx-glr-auto-examples-color-exposure-plot-equalize-py). The figure on the left is CT value histogram of a non-contrast chest sagittal CT image. The lower and upper limits are set to -200 and 200. The figure on the right is a histogram of the rescaled intensity. 
 
 <img src="img/sagittal_histogram2d.png">
 
-## Eigen values of Hessian matrix for CT images (sigma=1.0)
+## Eigen values of Hessian matrix for CT images
+File name is [hessian2d.py](hessian2d.py). Usage of hessian_matrix function is [here](https://scikit-image.org/docs/stable/api/skimage.feature.html?highlight=hessian_matrix#skimage.feature.hessian_matrix). The function was applied to non-contrast axial, sagittal, and coronal CT images. 
+
 <img src="img/hessian2d_axial.png">
 <img src="img/hessian2d.png">
 <img src="img/hessian2d_coronal.png">
