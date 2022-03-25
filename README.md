@@ -18,9 +18,13 @@ File name is [hessian2d.py](hessian2d.py). Usage of hessian_matrix function is [
 <img src="img/hessian2d_coronal.png">
 
 ## Labeling, convex hull, and skeleton of ribs and spine of CT image
+File name is [skeleton2d.py](skeleton2d.py).
+
 <img src="img/skeleton2d.png">
 
 ## Detection of ridge-like structures in a MIP CT image.
+File name is [ridge2d.py](ridge2d.py).
+
 <img src="img/ridge2d.png" width="600">
 
 # Author
