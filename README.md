@@ -11,14 +11,17 @@ File name is [histogram2d.py](histogram2d.py). Original scikit-image example is 
 <img src="img/sagittal_histogram2d.png">
 
 ## Eigen values of Hessian matrix for CT images
-File name is [hessian2d.py](hessian2d.py). Usage of hessian_matrix function is [here](https://scikit-image.org/docs/stable/api/skimage.feature.html?highlight=hessian_matrix#skimage.feature.hessian_matrix). The function was applied to non-contrast axial, sagittal, and coronal CT images. 
+File name is [hessian2d.py](hessian2d.py). Usage of hessian_matrix function is [here](https://scikit-image.org/docs/stable/api/skimage.feature.html?highlight=hessian_matrix#skimage.feature.hessian_matrix). The function was applied to non-contrast axial, sagittal, and coronal CT images. The parameter sigma was set to 1.0 as follows.
+```
+H_elems = hessian_matrix(input_img, sigma=1.0, order='rc')
+```
 
 <img src="img/hessian2d_axial.png">
 <img src="img/hessian2d.png">
 <img src="img/hessian2d_coronal.png">
 
-## Labeling, convex hull, and skeleton of ribs and spine of CT image
-File name is [skeleton2d.py](skeleton2d.py).
+## Labeling, convex hull, and skeleton of ribs and spine
+File name is [skeleton2d.py](skeleton2d.py). This example consists of five steps. (1)Thresholding of CT value for coarse bone segmentation from a non-contrast CT image. (2)Applying a morphological closing for filling the holes in the bone regions, using [binary_closing](https://scikit-image.org/docs/dev/api/skimage.morphology.html?highlight=binary_closing#skimage.morphology.binary_closing). (3)Applying a morphological opening for remove small regions, using [binary_opening](https://scikit-image.org/docs/dev/api/skimage.morphology.html?highlight=binary_opening#skimage.morphology.binary_opening). (4)Convex hull to the bone regions, using [convex_hull_image](https://scikit-image.org/docs/dev/api/skimage.morphology.html?highlight=convex_hull_image#skimage.morphology.convex_hull_image). (5)Skeletonizing the bone regions, using [skeletonize](https://scikit-image.org/docs/dev/api/skimage.morphology.html?highlight=skeletonize#skimage.morphology.skeletonize). Finally, because of the difficulty of observing skeletonized thin lines, morphological dilation was applied.
 
 <img src="img/skeleton2d.png">
 
