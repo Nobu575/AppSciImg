@@ -26,7 +26,7 @@ File name is [skeleton2d.py](skeleton2d.py). This example consists of five steps
 <img src="img/skeleton2d.png">
 
 ## Detection of ridge-like structures in a MIP CT image.
-File name is [ridge2d.py](ridge2d.py).
+File name is [ridge2d.py](ridge2d.py). Original scikit-image example is [here](https://scikit-image.org/docs/dev/auto_examples/edges/plot_ridge_filter.html#sphx-glr-auto-examples-edges-plot-ridge-filter-py). Four ridge filters were applied to non-contrast chest CT image.
 
 <img src="img/ridge2d.png" width="600">
 
